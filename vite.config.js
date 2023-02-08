@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/NativePlant/',
+  base: '/NativePlantConference2023/',
   
   plugins: [vue()],
   resolve: {
