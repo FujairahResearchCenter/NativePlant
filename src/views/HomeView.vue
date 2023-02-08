@@ -119,16 +119,19 @@
         </div>
 
 				<SessionsComponent />
+				<sessionizeSpeakersComponent/>
     </div>
   </main>
 </template>
 
 <script>
 import SessionsComponent from '../components/SessionsComponent.vue';
+import sessionizeSpeakersComponent from '../components/SpeakersComponent.vue';
 
 export default {
 	components: {
 		SessionsComponent,
+		SessionsComponent
 	}
 }
 </script>
